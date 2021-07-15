@@ -1,0 +1,31 @@
+﻿@import url('import.css');
+
+
+header {
+    background-color: bisque;
+    color: black;
+}
+
+main {
+    background-color: azure;
+}
+
+footer {
+    background-color: indigo;
+    color: aquamarine
+}
+
+h1 {
+    color: mediumpurple;
+    font-size: 35px;
+}
+
+aside h2 {
+    background-color: navy;
+    color: white;
+    text-decoration: underline;
+}
+
+header h1 {
+    color: darkslateblue;
+    font-size: 43px;
