@@ -1,5 +1,5 @@
-﻿@import url('import.css');
-
+﻿
+@import url('import.css');
 
 header {
     background-color: bisque;
@@ -7,8 +7,9 @@ header {
 }
 
 main {
-    background-color: azure;
+    background-color: rgba(211, 211, 211, 0.9);
 }
+
 
 footer {
     background-color: indigo;
@@ -29,3 +30,352 @@ aside h2 {
 header h1 {
     color: darkslateblue;
     font-size: 43px;
+}
+
+ul.blocklist {
+    /*background-color: white;*/
+}
+
+    ul.blocklist a {
+        color: darkblue;        
+        display: block;
+        text-decoration: none;
+    }
+
+        ul.blocklist a:hover {
+            background-color: grey;
+            color: aquamarine;
+        }
+
+a {
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    a:hover, a:active {
+        color: lightblue;
+        text-decoration: underline;
+        background-color: darkblue;
+    }
+
+nav a {
+    color: lightsalmon;
+}
+
+    nav a:hover, a :active, a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: lightblue;
+}
+
+nav li:hover {
+    background-color: darkblue;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: .4em;
+    display: block;
+}
+
+
+.selected {
+    background-color: darkblue;
+}
+
+
+
+#colordemo1 {
+    background-color: #6B00E8;
+    color: #FA1592;
+}
+
+#colordemo2 {
+    background-color: #AAA;
+    color: #222;
+}
+
+#colordemo3 {
+    background-color: rgb(202, 15, 120);
+    color: rgb(222, 12, 43)
+}
+
+#colordemo4 {
+    background-color: rgba(20,24,40, .5);
+    color: rbga(255, 10, 28,);
+}
+
+#colorGradient1 {
+    background-image: linear-gradient(90deg, red, yellow);
+}
+
+#colorGradient2 {
+    background-image: radial-gradient(50%, 60, pink, purple, blue);
+}
+
+#fontdemo1 {
+    font-family: serif;
+}
+
+#fontdemo2 {
+    font-family: sans-serif;
+}
+
+#fontdemo3 {
+    font-family: cursive;
+}
+
+#fontdemo4 {
+    font-family: monospace;
+}
+
+#fontdemo5 {
+    font-family: fantasy;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.leeter-spacing {
+    letter-spacing: 3em;
+}
+
+.wordspacing {
+    word-spacing: 1em;
+}
+
+.cdnDemo1 {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.cdnDemo2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.cdnDemo3 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+ul li {
+    list-style-image: url(../Images/images/bullet_point_image_teal.png );
+}
+
+aside ul li {
+    list-style-image: url(../Images/images/bullet_point_image_orange.png );
+}
+
+header {
+    background-image: url(../Images/images/a-r-t-paola-589990-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headerOverlay {
+    background-image: url(../Images/images/computer_icon.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 2% center;
+    padding: 1em;
+}
+
+header h1, header p {
+    margin: 7px 0 7px 150px;
+}
+
+header h1 {
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: #96F3FA;
+}
+
+header {
+    border-radius: 5px;
+}
+
+body {
+    background-image: url('Images/photo-1603807008857-ad66b70431aa.jpg');  
+    background-size: cover;
+    margin: 0;
+}
+
+nav ul {
+    min-height: 30px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 150px;
+}
+/*#ndregion*/
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    / width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lightsalmon;
+    }
+
+    div.galleryItem img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.galleryItem a:hover {
+        background-color: lightsalmon;
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
+.mainrapper {
+    padding: .1%;
+}
+
+footer {
+    padding: 1%;
+}
+
+nav.ul {
+    margin: 0;
+}
+
+aside h2 {
+    padding: 2%;
+}
+/*#endregion*/
+
+#html, #js {
+    float: right;
+    height: 75px;
+    margin-left: 20px;
+}
+
+#css {
+    float: left;
+    height: 75px;
+    margin-right: 20px;
+}
+
+#frontendDev section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+    #frontendDev section h3 {
+        margin: 10px 75px;
+    }
+
+    #frontendDev section p {
+        margin: 0 75px;
+    }
+
+/*For index.html - 2 column layout where 1 column is floated*/
+#leftColumn {
+    width: 73%;
+    border-right: 1px solid teal;
+}
+
+#rightColumn {
+    width: 25%;
+    float: right;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+/*For HTML.html - 2 column layout with 1 column floated and margin to clear the space for the content*/
+
+#htmlLeftColumn {
+    margin-right: 25%;
+    border-right: 1px dashed teal;
+}
+
+#htmlRightColumn {
+    width: 25%;
+    float: right;
+}
+/*For CSS.html - 2 columns layout with both columns floated - because both columns are floated we do NOT want the parent element to collapse so we have to add in a clear*/
+#cssLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+    /*this changes the way width and height are figured. With borer-box you are saying that the 75% width includes not only content but also padding and border.*/
+}
+
+#cssRightColumn {
+    width: 25%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+/*endregion*/
+
+/*#aregion HTML Tables*/
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse; /*avoids duplicate adjactent bordres inside of a table*/
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color: #96F3FA;
+}
+
+tfoot {
+    background-color: teal;
+}
+
+    tfoot tr, tfoot td {
+        border: 0;
+    }
+
+tbody tr:nth-child(even) {
+    background-color: lightsalmon;
+}
+
+
+/*#endregion*/
+div#webResources article {
+    float: left;
+    width: 33.33%;
+}
+
+#ContactsCenter{
+    text-align:center;
+}

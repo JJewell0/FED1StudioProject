@@ -67,9 +67,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administration.html" />
     <Content Include="classes.html" />
-    <Content Include="contact.html" />
+    <Content Include="contacts.html" />
     <Content Include="CSS.css" />
+    <Content Include="Images\Administrating Medicine.jpg" />
+    <Content Include="Images\photo-1500648767791-00dcc994a43e.jpg" />
+    <Content Include="Images\photo-1507003211169-0a1dd7228f2d.jpg" />
+    <Content Include="Images\photo-1521146764736-56c929d59c83.jpg" />
+    <Content Include="Images\photo-1561406636-b80293969660.jpg" />
+    <Content Include="Images\photo-1567783044809-704b82c7f862.jpg" />
+    <Content Include="Images\photo-1580489944761-15a19d654956.jpg" />
+    <Content Include="Images\photo-1595541436696-9d1ed153a2ca %281%29.jpg" />
+    <Content Include="Images\photo-1595541436696-9d1ed153a2ca.jpg" />
+    <Content Include="Images\photo-1597223557154-721c1cecc4b0.jpg" />
+    <Content Include="Images\photo-1599566150163-29194dcaad36.jpg" />
+    <Content Include="Images\photo-1600481176431-47ad2ab2745d.jpg" />
+    <Content Include="Images\photo-1602184572201-89c7deeddf3c.jpg" />
+    <Content Include="Images\photo-1603807008857-ad66b70431aa.jpg" />
+    <Content Include="Images\photo-1605951654320-a55377b36744.jpg" />
+    <Content Include="Images\photo-1606618742139-a5f068a9f16a %281%29.jpg" />
+    <Content Include="Images\photo-1615813967515-e1838c1c5116.jpg" />
+    <Content Include="Intructors.html" />
+    <Content Include="Sales.html" />
     <Content Include="team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -87,7 +107,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Folder Include="References\" />
     <Folder Include="Script\" />
     <Folder Include="Stylesheets\" />
   </ItemGroup>
